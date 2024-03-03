@@ -21,4 +21,6 @@ The flags will update based on the selected countries.
 Enter the amount to be converted.
 Click the "Convert" button to see the calculated exchange rate.
 
+![Screenshot](Screenshot (47).png)
+
 Feel free to contribute, provide feedback, or customize the code for your needs!
