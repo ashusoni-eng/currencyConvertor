@@ -19,7 +19,7 @@
                 <form action="" class="form-group">
                     <!-- amount input -->
                     <label for="amt">Enter Amount</label>
-                    <input type="text" name="amt" id="amt" placeholder="Enter Amount" class="form-control mt-1">
+                    <input type="text" name="amt" id="amt" placeholder="Enter Amount" class="form-control mt-1 amt">
 
                     <!-- selector -->
                     <div class="selectors">
@@ -27,12 +27,8 @@
                         <!-- from selector -->
                         <div class="fromSelector">
                             <label for="currencyFrom">From</label>
-                            <img src="https://flagsapi.com/US/flat/64.png">
-                            <select class="currency" id="currencyFrom">
-                                <option value="US" selected>USD</option>
-                                <option value="INR">INR</option>
-                                <option value="NP">NPR</option>
-                            </select>
+                            <img src="https://flagsapi.com/AE/flat/64.png">
+                            <select class="currency" id="currencyFrom"></select>
                         </div>
     
                         <!-- exchange Icon -->
@@ -43,30 +39,26 @@
                         <!-- To Selector -->
                         <div class="toSelector">
                             <label for="currencyTo">To</label>
-                            <img src="https://flagsapi.com/IN/flat/64.png">
-                            <select class="currency" id="currencyTo">
-                                <option value="US" selected>USD</option>
-                                <option value="INR">INR</option>
-                                <option value="NP">NPR</option>
-                            </select>
+                            <img src="https://flagsapi.com/AE/flat/64.png">
+                            <select class="currency" id="currencyTo"></select>
                         </div>
                     </div>    
                 </form>
                 <!-- result -->
                 <div class="result">
-                    <p>1 USD= 80 INR</p>
+                    <h6>&nbsp;</h6>
                 </div>
 
                 <!-- button -->
                 <div class="exchangeBtn">
-                    <button class="btn btn-primary form-control">Convert</button>
+                    <button class="btn btn-primary form-control convertBtn">Convert</button>
                 </div>
             </div>
         </div>
     </div>
 
-
-    <script src="app.js?v2"></script>
-    <script src="codes.js?v2"></script>
+    
+    <script src="codes.js?v4"></script>    
+    <script src="app.js?v4"></script>
 </body>
 </html>
